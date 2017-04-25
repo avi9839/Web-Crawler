@@ -89,7 +89,7 @@ def getthePrice():
         print(MetalPrice[metal])
     createDB()
     dataEntry(arr)
-    print("Database updates!")
+    print("Database updated!")
     #plotGraph()
     c.close()
     conn.close()
