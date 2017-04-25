@@ -39,7 +39,6 @@ def createDB():
     c.execute(query)
 
 def dataEntry(*a):
-    print('hello!')
     #date = c.execute("SELECT CURRENT_DATE")
     #print(date)
     #print(c.execute("DATE('now')"))
@@ -90,6 +89,7 @@ def getthePrice():
         print(MetalPrice[metal])
     createDB()
     dataEntry(arr)
+    print("Database updates!")
     #plotGraph()
     c.close()
     conn.close()
